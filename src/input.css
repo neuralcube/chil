@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Roboto, system-ui, sans-serif;
+
+    /* color: #4b5563 / 1; */
+  }
+
+  p {
+    @apply text-gray-700;
+    /* @apply font-light; */
+    /* @apply leading-relaxed;
+    @apply tracking-wide; */
+
+    /* @apply font-normal; */
+  }
+
+  .container {
+    @apply px-4;
+    @apply mx-auto;
+  }
+
+  svg {
+    /* @apply fill-current; */
+  }
+
+  img {
+    @apply rounded-xl;
+    @apply shadow-2xl;
+  }
+
+  .values svg {
+    @apply h-6;
+  }
+
+  .values dd {
+    @apply ml-7;
+  }
+
+  .contact-form-heading {
+    text-shadow: 2px 4px 8px black;
+  }
+}
